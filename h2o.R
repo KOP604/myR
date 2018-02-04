@@ -1,0 +1,5 @@
+install.packages("h2o')
+library(h2o)
+h2o.init()
+h2o.shutdown()
+h2o.init(nthreads = -1)
